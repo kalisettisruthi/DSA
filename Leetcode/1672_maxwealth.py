@@ -1,5 +1,6 @@
 class Solution(object):
     def maximumWealth(self, accounts):
+        #
         max_wealth = 0 
         for customer in accounts :
             current_customer = sum(customer)
