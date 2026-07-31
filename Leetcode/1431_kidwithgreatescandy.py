@@ -1,5 +1,6 @@
 class Solution(object):
     def kidsWithCandies(self, candies, extraCandies):
+        #maximum candies
         max_candy = max(candies)
         result = []
         for candy in candies :
